@@ -30,6 +30,15 @@ A task can be executed with the command:
 
 ``$ lua hello-world/text.lua``
 
+LuaRocks and other dependencies
+----------------------------------------
+
+Some tasks have dependencies (like a small web server). To handle these dependencies with glamour, you'll need to install [LuaRocks](http://www.luarocks.org/), a package management system for Lua.
+
+After installing this guy, you can resolve project dependencies through **make**:
+
+``$ make install``
+
 Writing your own code
 ---------------------------
 
@@ -46,3 +55,4 @@ Tasks done
 * [Hello world/Newline omission](http://rosettacode.org/wiki/Hello_world/Newline_omission)
 * [Hello world/Standard error](http://rosettacode.org/wiki/Hello_world/Standard_error)
 * [Hello world/Text](http://rosettacode.org/wiki/Hello_world/Text)
+* [Hello world/Web server](http://rosettacode.org/wiki/Hello_world/Web_server)
