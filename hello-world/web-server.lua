@@ -1,6 +1,7 @@
 #!/usr/bin/env wsapi.cgi
 
 -- http://rosettacode.org/wiki/Hello_world/Web_server
+--
 -- To run:
 -- $ cd hello-world/
 -- $ wsapi -p5000

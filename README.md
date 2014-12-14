@@ -33,9 +33,12 @@ A task can be executed with the command:
 LuaRocks and other dependencies
 ----------------------------------------
 
-Some tasks have dependencies (like a small web server). To handle these dependencies with glamour, you'll need to install [LuaRocks](http://www.luarocks.org/), a package management system for Lua.
+Some tasks have dependencies (like a small web server or dealing with GUI). To handle these dependencies with glamour, you'll need to install the following tools:
 
-After installing this guy, you can resolve project dependencies through **make**:
+* [LuaRocks](http://www.luarocks.org/): a package management system for Lua;
+* [LÖVE](https://love2d.org/): a framework you can use to make 2D games in Lua.
+
+After installing those guys, you can resolve project dependencies through **make**:
 
 ``$ make install``
 
@@ -51,6 +54,7 @@ With these folks, your life will be colorful :)
 Tasks done
 -------------
 
+* [Hello world/Graphical](http://rosettacode.org/wiki/Hello_world/Graphical)
 * [Hello world/Newbie](http://rosettacode.org/wiki/Hello_world/Newbie)
 * [Hello world/Newline omission](http://rosettacode.org/wiki/Hello_world/Newline_omission)
 * [Hello world/Standard error](http://rosettacode.org/wiki/Hello_world/Standard_error)
