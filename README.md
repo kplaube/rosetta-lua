@@ -26,9 +26,9 @@ Linux users can use their own package repository to install it. E.g. with Ubuntu
 
 ``$ sudo aptitude install lua5.2``
 
-A script can be executed with the command:
+A task can be executed with the command:
 
-``$ lua my_script.lua``
+``$ lua hello-world/text.lua``
 
 Writing your own code
 ---------------------------
