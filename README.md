@@ -44,3 +44,4 @@ Tasks done
 
 * [Hello world/Text](http://rosettacode.org/wiki/Hello_world/Text)
 * [Hello world/Newbie](http://rosettacode.org/wiki/Hello_world/Newbie)
+* [Hello world/Newline omission](http://rosettacode.org/wiki/Hello_world/Newline_omission)
