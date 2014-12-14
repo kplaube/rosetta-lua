@@ -42,4 +42,5 @@ With these folks, your life will be colorful :)
 Tasks done
 -------------
 
+* [Hello world/Text](http://rosettacode.org/wiki/Hello_world/Text)
 * [Hello world/Newbie](http://rosettacode.org/wiki/Hello_world/Newbie)
