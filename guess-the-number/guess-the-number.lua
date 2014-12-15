@@ -1,14 +1,12 @@
 -- http://rosettacode.org/wiki/Guess_the_number
 
-math.randomseed(os.time())
-math.random(); math.random(); math.random()
+require("GuessingNumbers")
 
-local rand_number = math.random(1, 10)
-local user_number
+pick_a_number(1, 10)
 
 repeat
     io.write("Guess the number: ")
     user_number = tonumber(io.read())
-until(user_number == rand_number)
+until(is_the_number(user_number))
 
 print("Well guessed!")
