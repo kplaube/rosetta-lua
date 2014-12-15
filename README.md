@@ -55,6 +55,7 @@ Tasks done
 -------------
 
 * [Guess the number](http://rosettacode.org/wiki/Guess_the_number)
+* [Guess the number/With feedback](http://rosettacode.org/wiki/Guess_the_number/With_Feedback)
 * [Hello world/Graphical](http://rosettacode.org/wiki/Hello_world/Graphical)
 * [Hello world/Newbie](http://rosettacode.org/wiki/Hello_world/Newbie)
 * [Hello world/Newline omission](http://rosettacode.org/wiki/Hello_world/Newline_omission)

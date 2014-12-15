@@ -13,4 +13,12 @@ function is_the_number(guessed_number)
     return guessed_number == rand_number
 end
 
+function is_higher(guessed_number)
+    return guessed_number > rand_number
+end
+
+function is_lesser(guessed_number)
+    return guessed_number < rand_number
+end
+
 seed_random()

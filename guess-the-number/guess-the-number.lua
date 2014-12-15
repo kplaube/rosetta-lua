@@ -2,6 +2,8 @@
 
 require("GuessingNumbers")
 
+local user_number
+
 pick_a_number(1, 10)
 
 repeat
