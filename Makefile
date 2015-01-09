@@ -11,4 +11,4 @@ install:
 	luarocks install busted
 
 test:
-	@busted .
+	busted tests/
