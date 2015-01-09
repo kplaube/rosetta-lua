@@ -9,6 +9,10 @@ function pick_a_number(lower, upper)
     rand_number = math.random(lower, upper)
 end
 
+function get_the_number()
+    return rand_number
+end
+
 function is_the_number(guessed_number)
     return guessed_number == rand_number
 end
