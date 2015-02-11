@@ -1,5 +1,6 @@
 Rosetta Lua
 ===========
+[![Build Status](https://travis-ci.org/kplaube/rosetta-lua.svg?branch=master)](https://travis-ci.org/kplaube/rosetta-lua)
 
 In order to practice Lua, I'm doing some [rosettacode.org](http://rosettacode.org/) tasks with the language.
 Please, feel free to contribute, add or fix some piece of code!
