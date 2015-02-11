@@ -4,10 +4,8 @@ require("GuessingNumbers")
 describe('guessing the number lib', function()
 	
 	before_each(function()
-		math.randomseed(1.0)
-		math.random(); math.random(); math.random()
-
-		pick_a_number(0, 100)
+		-- FIXME: Should use math.randomseed(0)
+		pick_a_number(0, 100, true)
 	end)
 
 	it('should pick an integer number', function ()
