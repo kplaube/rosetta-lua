@@ -1,4 +1,4 @@
-local mymodule = {}
+local sorting = {}
 
 local function get_min_index(array, starting_index)
     local min_value = array[starting_index]
@@ -14,7 +14,19 @@ local function get_min_index(array, starting_index)
     return min_index
 end
 
-function mymodule:selection_sort(array)
+local function insert(array, right_index, value)
+    local i = right_index
+
+    while i > 0 and array[i] > value do
+        array[i + 1] = array[i]
+
+        i = i - 1
+    end
+
+    array[i + 1] = value
+end
+
+function sorting:selection_sort(array)
     local min_value_index
     local swap_value
 
@@ -29,4 +41,12 @@ function mymodule:selection_sort(array)
     return array
 end
 
-return mymodule
+function sorting:insertion_sort(array)
+    for i=2, table.getn(array), 1 do
+        insert(array, i - 1, array[i])
+    end
+
+    return array
+end
+
+return sorting
