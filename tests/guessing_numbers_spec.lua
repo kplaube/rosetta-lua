@@ -1,5 +1,5 @@
-package.path = package.path .. ';guess-the-number/?.lua'
-require("GuessingNumbers")
+package.path = package.path .. ';./lib/?.lua'
+require("guessing_numbers")
 
 describe('guessing the number lib', function()
 	

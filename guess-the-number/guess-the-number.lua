@@ -1,6 +1,6 @@
 -- http://rosettacode.org/wiki/Guess_the_number
 
-require("GuessingNumbers")
+require('lib/guessing_numbers')
 
 local user_number
 
