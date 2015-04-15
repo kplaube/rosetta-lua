@@ -56,6 +56,7 @@ Tasks done
 -------------
 
 * [Binary search](http://rosettacode.org/wiki/Binary_search)
+* [Exponentiation operator](http://rosettacode.org/wiki/Exponentiation_operator)
 * [Factorial](http://rosettacode.org/wiki/Factorial)
 * [Guess the number](http://rosettacode.org/wiki/Guess_the_number)
 * [Guess the number/With feedback](http://rosettacode.org/wiki/Guess_the_number/With_Feedback)
