@@ -1,6 +1,6 @@
 -- http://rosettacode.org/wiki/Exponentiation_operator
 
-require('lib/exponential_operator')
+require('lib/exponentiation_operator')
 
 local integer_exp = custom_pow(2, 8)
 print(integer_exp)

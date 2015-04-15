@@ -1,7 +1,7 @@
 package.path = package.path .. ';lib/?lua'
 
 describe('Exponential Operator', function()
-    require('exponential_operator')
+    require('exponentiation_operator')
 
     it('should return 1 when the expoent is 0', function()
         local response = custom_pow(3, 0)
