@@ -1,0 +1,10 @@
+-- http://rosettacode.org/wiki/Sierpinski_triangle
+
+local sierpinski = require('lib/sierpinski_lib')
+
+local triangle = sierpinski:triangle(4)
+local i
+
+for i=1, table.getn(triangle), 1 do
+    print(triangle[i])
+end

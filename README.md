@@ -67,5 +67,6 @@ Tasks done
 * [Hello world/Text](http://rosettacode.org/wiki/Hello_world/Text)
 * [Hello world/Web server](http://rosettacode.org/wiki/Hello_world/Web_server)
 * [Palindrome detection](http://rosettacode.org/wiki/Palindrome_detection)
+* [Sierpinski triangle](http://rosettacode.org/wiki/Sierpinski_triangle)
 * [Sorting algorithms/Insertion sort](http://rosettacode.org/wiki/Sorting_algorithms/Insertion_sort)
 * [Sorting algorithms/Selection sort](http://rosettacode.org/wiki/Sorting_algorithms/Selection_sort)
