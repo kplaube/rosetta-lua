@@ -4,7 +4,7 @@ local function get_min_index(array, starting_index)
     local min_value = array[starting_index]
     local min_index = starting_index
 
-    for i=starting_index + 1, table.getn(array), 1 do
+    for i=starting_index + 1, #array, 1 do
         if array[i] < min_value then
             min_value = array[i]
             min_index = i
@@ -26,11 +26,11 @@ local function insert(array, right_index, value)
     array[i + 1] = value
 end
 
-function sorting:selection_sort(array)
+function sorting.selection_sort(array)
     local min_value_index
     local swap_value
 
-    for i=1, table.getn(array), 1 do
+    for i=1, #array, 1 do
         min_value_index = get_min_index(array, i)
 
         swap_value = array[i]
@@ -41,8 +41,8 @@ function sorting:selection_sort(array)
     return array
 end
 
-function sorting:insertion_sort(array)
-    for i=2, table.getn(array), 1 do
+function sorting.insertion_sort(array)
+    for i=2, #array, 1 do
         insert(array, i - 1, array[i])
     end
 

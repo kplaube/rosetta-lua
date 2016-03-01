@@ -2,8 +2,7 @@
 
 local sierpinski = require('lib/sierpinski_lib')
 
-local triangle = sierpinski:triangle(4)
-local i
+local triangle = sierpinski.triangle(4)
 
 for i=1, table.getn(triangle), 1 do
     print(triangle[i])

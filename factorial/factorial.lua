@@ -2,6 +2,6 @@
 
 local factorial = require('lib/factorial')
 
-result = factorial:factorial(5)
+local result = factorial.factorial(5)
 
 print('5! == ' .. result)

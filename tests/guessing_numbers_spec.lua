@@ -2,7 +2,7 @@ package.path = package.path .. ';./lib/?.lua'
 require("guessing_numbers")
 
 describe('guessing the number lib', function()
-	
+
 	before_each(function()
 		-- FIXME: Should use math.randomseed(0)
 		pick_a_number(0, 100, true)

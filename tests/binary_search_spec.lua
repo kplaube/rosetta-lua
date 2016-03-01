@@ -13,25 +13,25 @@ describe('Binary search', function()
 	end)
 
 	it('should find the element in the middle of array', function()
-		local response = search:binary_search(10, myarray)
+		local response = search.binary_search(10, myarray)
 
 		assert.are.equal(5, response)
 	end)
 
 	it('should find the element even if it is the first element', function()
-		local response = search:binary_search(2, myarray)
+		local response = search.binary_search(2, myarray)
 
 		assert.are.equal(1, response)
 	end)
 
 	it('should find the element even if it is the last element', function()
-		local response = search:binary_search(50, myarray)
+		local response = search.binary_search(50, myarray)
 
 		assert.are.equal(25, response)
 	end)
 
 	it('should not find an inexistent element', function()
-		local response = search:binary_search(80, myarray)
+		local response = search.binary_search(80, myarray)
 
 		assert.are.equal(-1, response)
 	end)

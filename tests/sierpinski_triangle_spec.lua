@@ -9,14 +9,14 @@ describe('Sierpinski triangle', function()
     end)
 
     it('should return a scheme with only 1 triangle', function()
-        response = sierpinski:triangle(1)
+        local response = sierpinski.triangle(1)
 
         assert.are.equal(' * ', response[1])
         assert.are.equal('* *', response[2])
     end)
 
     it('should return a scheme with 2 triangles', function()
-        response = sierpinski:triangle(2)
+        local response = sierpinski.triangle(2)
 
         assert.are.equal('   *   ' , response[1])
         assert.are.equal('  * *  ' , response[2])
@@ -25,7 +25,7 @@ describe('Sierpinski triangle', function()
     end)
 
     it('should return a scheme with 4 triangles', function()
-        response = sierpinski:triangle(4)
+        local response = sierpinski.triangle(4)
 
         assert.are.equal('               *               ', response[1])
         assert.are.equal('              * *              ', response[2])

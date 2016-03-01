@@ -9,5 +9,5 @@ for i=1,25 do
 	myarray[i] = i * 2
 end
 
-index = search:binary_search(18, myarray)
+index = search.binary_search(18, myarray)
 print(index)

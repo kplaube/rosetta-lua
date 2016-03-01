@@ -1,9 +1,9 @@
 local mymodule = {}
 
-function mymodule:binary_search(number, array)
+function mymodule.binary_search(number, array)
 	local mid
 	local min = 1
-	local max = table.getn(array)
+	local max = #array
 
 	while(min <= max) do
 		mid = math.floor(max / min)
