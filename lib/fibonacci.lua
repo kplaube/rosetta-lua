@@ -13,15 +13,11 @@ function mymodule.optimized(n)
         0, 1
     }
 
-    if n <= 1 then
-        return fib[n + 1]
-    end
-
     for i=2, n, 1 do
         fib[i + 1] = fib[i] + fib[i - 1]
     end
 
-    return fib[#fib]
+    return fib[n + 1]
 end
 
 return mymodule
