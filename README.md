@@ -59,6 +59,7 @@ Tasks done
 * [Exponentiation operator](http://rosettacode.org/wiki/Exponentiation_operator)
 * [Factorial](http://rosettacode.org/wiki/Factorial)
 * [Fibonacci sequence](http://rosettacode.org/wiki/Fibonacci_sequence)
+* [Greatest common divisor](http://rosettacode.org/wiki/Greatest_common_divisor)
 * [Guess the number](http://rosettacode.org/wiki/Guess_the_number)
 * [Guess the number/With feedback](http://rosettacode.org/wiki/Guess_the_number/With_Feedback)
 * [Hello world/Graphical](http://rosettacode.org/wiki/Hello_world/Graphical)
