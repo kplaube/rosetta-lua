@@ -68,6 +68,7 @@ Tasks done
 * [Hello world/Standard error](http://rosettacode.org/wiki/Hello_world/Standard_error)
 * [Hello world/Text](http://rosettacode.org/wiki/Hello_world/Text)
 * [Hello world/Web server](http://rosettacode.org/wiki/Hello_world/Web_server)
+* [Knapsack problem/0-1](http://rosettacode.org/wiki/Knapsack_problem/0-1)
 * [Palindrome detection](http://rosettacode.org/wiki/Palindrome_detection)
 * [Sierpinski triangle](http://rosettacode.org/wiki/Sierpinski_triangle)
 * [Sorting algorithms/Insertion sort](http://rosettacode.org/wiki/Sorting_algorithms/Insertion_sort)
