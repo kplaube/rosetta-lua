@@ -72,4 +72,5 @@ Tasks done
 * [Palindrome detection](http://rosettacode.org/wiki/Palindrome_detection)
 * [Sierpinski triangle](http://rosettacode.org/wiki/Sierpinski_triangle)
 * [Sorting algorithms/Insertion sort](http://rosettacode.org/wiki/Sorting_algorithms/Insertion_sort)
+* [Sorting algorithms/Quicksort](http://rosettacode.org/wiki/Sorting_algorithms/Quicksort)
 * [Sorting algorithms/Selection sort](http://rosettacode.org/wiki/Sorting_algorithms/Selection_sort)
