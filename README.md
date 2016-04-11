@@ -71,6 +71,7 @@ Tasks done
 * [Knapsack problem/0-1](http://rosettacode.org/wiki/Knapsack_problem/0-1)
 * [Palindrome detection](http://rosettacode.org/wiki/Palindrome_detection)
 * [Sierpinski triangle](http://rosettacode.org/wiki/Sierpinski_triangle)
+* [Singly-linked list/Element definition](http://rosettacode.org/wiki/Singly-linked_list/Element_definition)
 * [Sorting algorithms/Insertion sort](http://rosettacode.org/wiki/Sorting_algorithms/Insertion_sort)
 * [Sorting algorithms/Merge sort](http://rosettacode.org/wiki/Sorting_algorithms/Merge_sort)
 * [Sorting algorithms/Quicksort](http://rosettacode.org/wiki/Sorting_algorithms/Quicksort)
