@@ -1,11 +1,12 @@
 local rand_number
+local module = {}
 
-function seed_random()
+local function seed_random()
     math.randomseed(os.time())
     math.random(); math.random(); math.random()
 end
 
-function pick_a_number(lower, upper, describe)
+function module.pick_a_number(lower, upper, describe)
 	describe = describe or false
 
 	-- FIXME: Should use math.randomseed, but this method is
@@ -17,20 +18,22 @@ function pick_a_number(lower, upper, describe)
 	end
 end
 
-function get_the_number()
+function module.get_the_number()
     return rand_number
 end
 
-function is_the_number(guessed_number)
+function module.is_the_number(guessed_number)
     return guessed_number == rand_number
 end
 
-function is_higher(guessed_number)
+function module.is_higher(guessed_number)
     return guessed_number > rand_number
 end
 
-function is_lesser(guessed_number)
+function module.is_lesser(guessed_number)
     return guessed_number < rand_number
 end
 
 seed_random()
+
+return module
