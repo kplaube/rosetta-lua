@@ -5,7 +5,7 @@ describe('Binary search', function()
 	local myarray = {}
 
 	setup(function()
-		search = require('search_lib')
+		search = require('search')
 
 		for i=1,25 do
 			myarray[i] = i * 2

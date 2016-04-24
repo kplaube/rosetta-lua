@@ -5,7 +5,7 @@ describe('Sierpinski triangle', function()
     local sierpinski
 
     setup(function()
-        sierpinski = require('sierpinski_lib')
+        sierpinski = require('sierpinski')
     end)
 
     it('should return a scheme with only 1 triangle', function()

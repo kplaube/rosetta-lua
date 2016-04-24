@@ -1,6 +1,6 @@
 -- http://rosettacode.org/wiki/Binary_search
 
-local search = require('lib/search_lib')
+local search = require('lib/search')
 
 local myarray = {}
 local index

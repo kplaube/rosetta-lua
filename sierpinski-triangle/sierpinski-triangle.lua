@@ -1,6 +1,6 @@
 -- http://rosettacode.org/wiki/Sierpinski_triangle
 
-local sierpinski = require('lib/sierpinski_lib')
+local sierpinski = require('lib/sierpinski')
 
 local triangle = sierpinski.triangle(4)
 
