@@ -1,6 +1,6 @@
 -- http://rosettacode.org/wiki/Sorting_algorithms/Merge_sort
 
-local sorting = require('lib/sorting_lib')
+local sorting = require('lib/sorting')
 
 local myarray = {10, -1, -2, 5, 8, 9}
 

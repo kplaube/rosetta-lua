@@ -1,7 +1,7 @@
 package.path = package.path .. ';./lib/?.lua'
 
 describe('Quicksort', function()
-    local sorting = require('sorting_lib')
+    local sorting = require('sorting')
 
     it('should return the array as it is when it is sorted', function()
         local input = {1, 2, 3, 4, 5}

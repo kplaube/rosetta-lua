@@ -4,7 +4,7 @@ describe('Selection sort', function()
     local sorting
 
     setup(function()
-        sorting = require('sorting_lib')
+        sorting = require('sorting')
     end)
 
     it('should return the array as it is when it is sorted', function()
