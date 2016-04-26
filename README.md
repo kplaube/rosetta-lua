@@ -55,6 +55,7 @@ With these folks, your life will be colorful :)
 Tasks done
 -------------
 
+* [Balanced brackets](http://rosettacode.org/wiki/Balanced_brackets)
 * [Binary search](http://rosettacode.org/wiki/Binary_search)
 * [Exponentiation operator](http://rosettacode.org/wiki/Exponentiation_operator)
 * [Factorial](http://rosettacode.org/wiki/Factorial)
