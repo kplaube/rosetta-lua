@@ -9,7 +9,7 @@ describe('Balanced brackets', function()
         assert.are.equal('OK', response)
     end)
 
-    it('should return OK when I pass a single open bracket', function()
+    it('should return NOT OK when I pass a single open bracket', function()
         local response = brackets.balanced_brackets('[')
 
         assert.are.equal('NOT OK', response)
