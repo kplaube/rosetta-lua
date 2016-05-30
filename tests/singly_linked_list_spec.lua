@@ -31,6 +31,27 @@ describe('Singly-linked list', function()
         end)
     end)
 
+    describe('Traversal', function()
+        it('should not traverse an empty list', function()
+            local list = linked_list.LinkedList.new()
+            list:traverse()
+        end)
+
+        it('should traverse from the beginning to the end of the list', function()
+            stub(_G, 'print')
+
+            local list = linked_list.LinkedList.new('a')
+            list:insert('b')
+            list:insert('c')
+
+            list:traverse()
+
+            assert.stub(_G.print).was.called_with('a')
+            assert.stub(_G.print).was.called_with('b')
+            assert.stub(_G.print).was.called_with('c')
+        end)
+    end)
+
     describe('Creating a singly-linked list', function()
         local list = linked_list.create_single_linked_list({'a', 'b', 'c'})
 

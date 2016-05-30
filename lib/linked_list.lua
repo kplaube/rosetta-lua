@@ -45,6 +45,26 @@ function LinkedList:insert(value, node)
     node.next = new_node
 end
 
+function LinkedList:traverse(node)
+    if node == nil then
+        node = self.head
+    end
+
+    self._traverse(node)
+end
+
+function LinkedList._traverse(node)
+    if node == nil then
+        return
+    end
+
+    print(node.value)
+
+    if node.next then
+        LinkedList._traverse(node.next)
+    end
+end
+
 mymodule.Node = Node
 mymodule.LinkedList = LinkedList
 
