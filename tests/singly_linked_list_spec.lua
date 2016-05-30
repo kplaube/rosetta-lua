@@ -6,45 +6,38 @@ describe('Singly-linked list', function()
     describe('Element definition', function()
 
         it('should set a node with a value', function()
-            local node = linked_list.LinkedList.new('a')
+            local list = linked_list.LinkedList.new('a')
 
-            assert.are.same(node.value, 'a')
-        end)
-
-        it('should set a node with a next pointer', function()
-            local next = linked_list.LinkedList.new('b')
-            local node = linked_list.LinkedList.new('a', next)
-
-            assert.are.same(node.next, next)
+            assert.are.same(list.head.value, 'a')
         end)
 
     end)
 
     describe('Element insertion', function()
         it('should add a node to the end of the list', function()
-            local node = linked_list.LinkedList.new('a')
-            node:insert('b')
+            local list = linked_list.LinkedList.new('a')
+            list:insert('b')
 
-            assert.are.same(node.value, 'a')
-            assert.are.same(node.next.value, 'b')
+            assert.are.same(list.head.value, 'a')
+            assert.are.same(list.head.next.value, 'b')
         end)
 
         it('should add a node to an empty list', function()
-            local node = linked_list.LinkedList.new()
-            node:insert('a')
+            local list = linked_list.LinkedList.new()
+            list:insert('a')
 
-            assert.are.same(node.value, 'a')
-            assert.is_nil(node.next)
+            assert.are.same(list.head.value, 'a')
+            assert.is_nil(list.head.next)
         end)
     end)
 
     describe('Creating a singly-linked list', function()
-        local head = linked_list.create_single_linked_list({'a', 'b', 'c'})
+        local list = linked_list.create_single_linked_list({'a', 'b', 'c'})
 
         it('should set a linked list following a Lua array/vector', function()
-            assert.are.same(head.value, 'a')
-            assert.are.same(head.next.value, 'b')
-            assert.are.same(head.next.next.value, 'c')
+            assert.are.same(list.head.value, 'a')
+            assert.are.same(list.head.next.value, 'b')
+            assert.are.same(list.head.next.next.value, 'c')
         end)
 
     end)
