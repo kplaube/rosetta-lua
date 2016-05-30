@@ -20,6 +20,24 @@ describe('Singly-linked list', function()
 
     end)
 
+    describe('Element insertion', function()
+        it('should add a node to the end of the list', function()
+            local node = linked_list.LinkedList.new('a')
+            node:insert('b')
+
+            assert.are.same(node.value, 'a')
+            assert.are.same(node.next.value, 'b')
+        end)
+
+        it('should add a node to an empty list', function()
+            local node = linked_list.LinkedList.new()
+            node:insert('a')
+
+            assert.are.same(node.value, 'a')
+            assert.is_nil(node.next)
+        end)
+    end)
+
     describe('Creating a singly-linked list', function()
         local head = linked_list.create_single_linked_list({'a', 'b', 'c'})
 
