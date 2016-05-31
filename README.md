@@ -80,3 +80,4 @@ Tasks done
 * [Sorting algorithms/Merge sort](http://rosettacode.org/wiki/Sorting_algorithms/Merge_sort)
 * [Sorting algorithms/Quicksort](http://rosettacode.org/wiki/Sorting_algorithms/Quicksort)
 * [Sorting algorithms/Selection sort](http://rosettacode.org/wiki/Sorting_algorithms/Selection_sort)
+* [Stack](http://rosettacode.org/wiki/Stack)
