@@ -110,5 +110,73 @@ describe('AVL Tree', function()
 
             assert.are_same(response, expected)
         end)
+
+        it('should keep the order even if it is a big tree', function()
+            tree:insert(10)
+            tree:insert(20)
+            tree:insert(1)
+            tree:insert(2)
+            tree:insert(3)
+            tree:insert(4)
+            tree:insert(5)
+            tree:insert(6)
+            tree:insert(7)
+            tree:insert(8)
+            tree:insert(9)
+            tree:insert(30)
+            tree:insert(50)
+            tree:insert(40)
+
+            local expected = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 30, 40, 50}
+            local response = tree.root:in_order_traverse()
+
+            assert.are_same(response, expected)
+            assert.are_same(tree.root.value, 5)
+        end)
+    end)
+
+    describe('Deleting', function()
+
+        it('should remove a node', function()
+            tree:insert(20)
+            tree:insert(30)
+            tree:insert(10)
+
+            tree:remove(20)
+
+            assert.are_same(tree.root.value, 30)
+            assert.are_same(tree.root.left_child.value, 10)
+            assert.is_nil(tree.root.right_child)
+        end)
+
+        it('should manage parent nodes', function()
+            tree:insert(20)
+            tree:insert(30)
+            tree:insert(10)
+
+            tree:remove(20)
+
+            assert.is_nil(tree.root.parent_node)
+            assert.are_same(tree.root.left_child.parent_node.value, 30)
+        end)
+
+        it('should remove the node even in a bigger tree', function()
+            tree:insert(1)
+            tree:insert(2)
+            tree:insert(3)
+            tree:insert(4)
+            tree:insert(5)
+            tree:insert(6)
+            tree:insert(7)
+            tree:insert(8)
+            tree:insert(9)
+            tree:insert(10)
+
+            tree:remove(6)
+
+            local expected = {1, 2, 3, 4, 5, 7, 8, 9, 10}
+
+            assert.are_same(tree.root:in_order_traverse(), expected)
+        end)
     end)
 end)

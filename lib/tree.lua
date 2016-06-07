@@ -174,10 +174,9 @@ end
 
 function AVL:rotate_left(node)
     local b = node.right_child
+
     b.parent_node = node.parent_node
-
     node.right_child = b.left_child
-
     if node.right_child ~= nil then
         node.right_child.parent_node = node
     end
@@ -201,10 +200,9 @@ end
 
 function AVL:rotate_right(node)
     local b = node.left_child
+
     b.parent_node = node.parent_node
-
     node.left_child = b.right_child
-
     if node.left_chid ~= nil then
         node.left_child.parent_node = node
     end
@@ -228,6 +226,69 @@ end
 
 function AVL:height()
     return self:_height(self.root)
+end
+
+function AVL:find(value)
+    if self.root == nil then
+        return nil
+    end
+
+    local next_node = self.root
+    local del_node = nil
+    local child = self.root
+
+    while child ~= nil do
+        next_node = child
+
+        if value >= next_node.value then
+            child = next_node.right_child
+        else
+            child = next_node.left_child
+        end
+
+        if value == next_node.value then
+            del_node = next_node
+        end
+    end
+
+    return {del_node, next_node}
+end
+
+function AVL:remove(value)
+    if self.root == nil then
+        return nil
+    end
+
+    local nodes = self:find(value)
+    local del_node = nodes[1]
+    local next_node = nodes[2]
+
+    if del_node == nil then
+        return nil
+    end
+
+    del_node.value = next_node.value
+
+    local child
+    if next_node.left_child ~= nil then
+        child = next_node.left_child
+    else
+        child = next_node.right_child
+    end
+
+    if self.root.value == value then
+        self.root = child
+    else
+        local parent = next_node.parent_node
+
+        if parent.left_child == next_node then
+            parent.left_child = child
+        else
+            parent.right_child = child
+        end
+
+        self:rebalance_tree(parent)
+    end
 end
 
 function AVL:_height(node)

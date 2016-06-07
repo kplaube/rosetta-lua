@@ -55,6 +55,7 @@ With these folks, your life will be colorful :)
 Tasks done
 -------------
 
+* [AVL tree](http://rosettacode.org/wiki/AVL_tree)
 * [Balanced brackets](http://rosettacode.org/wiki/Balanced_brackets)
 * [Binary search](http://rosettacode.org/wiki/Binary_search)
 * [Exponentiation operator](http://rosettacode.org/wiki/Exponentiation_operator)
