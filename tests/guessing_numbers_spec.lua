@@ -1,4 +1,4 @@
-package.path = package.path .. ';./lib/?.lua'
+package.path = package.path .. ';./rosetta/lib/?.lua'
 
 describe('guessing the number lib', function()
     local gn = require("guessing_numbers")

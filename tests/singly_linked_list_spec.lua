@@ -1,4 +1,4 @@
-package.path = package.path .. ';./lib/?.lua'
+package.path = package.path .. ';./rosetta/lib/?.lua'
 
 describe('Singly-linked list', function()
     local linked_list = require('linked_list')

@@ -1,4 +1,4 @@
-package.path = package.path .. ';./lib/?.lua'
+package.path = package.path .. ';./rosetta/lib/?.lua'
 
 describe('Quicksort', function()
     local sorting = require('sorting')

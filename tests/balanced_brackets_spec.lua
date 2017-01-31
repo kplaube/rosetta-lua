@@ -1,4 +1,4 @@
-package.path = package.path .. ';./lib/?.lua'
+package.path = package.path .. ';./rosetta/lib/?.lua'
 
 describe('Balanced brackets', function()
     local brackets = require('balanced_brackets')

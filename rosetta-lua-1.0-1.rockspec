@@ -9,7 +9,8 @@ description = {
 }
 dependencies = {
     "busted",
-    "luacheck"
+    "luacheck",
+    "wsapi-xavante"
 }
 build = {
    type = "builtin",

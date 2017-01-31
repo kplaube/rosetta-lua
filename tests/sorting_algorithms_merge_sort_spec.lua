@@ -1,4 +1,4 @@
-package.path = package.path .. ';./lib/?.lua'
+package.path = package.path .. ';./rosetta/lib/?.lua'
 
 describe('Merge sort', function()
     local sorting = require('sorting')
