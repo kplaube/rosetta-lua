@@ -29,7 +29,7 @@ Linux users can use their own package repository to install it. E.g. with Ubuntu
 
 A task can be executed with the command:
 
-``$ lua hello-world/text.lua``
+``$ lua rosetta/hello-world/text.lua``
 
 LuaRocks and other dependencies
 ----------------------------------------
@@ -41,7 +41,7 @@ Some tasks have dependencies (like a small web server or dealing with GUI). To h
 
 After installing those guys, you can resolve project dependencies through **make**:
 
-``$ make install``
+``$ make setup``
 
 Writing your own code
 ---------------------------
