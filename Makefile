@@ -1,18 +1,15 @@
 help:
 	@echo 'help                           This screen'
-	@echo 'install                        Install project dependencies'
+	@echo 'setup                          Install project dependencies'
 	@echo 'test                           Run project tests'
 	@echo ''
 
-install:
+setup:
 	@echo 'Make sure you have installed LuaRocks and LÖVE!'
-	luarocks install luacheck
-	luarocks install luasec
-	luarocks install wsapi-xavante
-	luarocks install busted
+	luarocks make --local
 
 test:
-	busted tests/
+	~/.luarocks/bin/busted tests/
 
 lint:
-	luacheck .
+	~/.luarocks/bin/luacheck .

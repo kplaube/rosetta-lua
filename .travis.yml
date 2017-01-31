@@ -22,7 +22,7 @@ before_install:
 
 
 install:
-  - sudo -E make install
+  - make setup
 
 script:
   - make test
