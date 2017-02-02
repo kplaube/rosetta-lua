@@ -55,6 +55,7 @@ With these folks, your life will be colorful :)
 Tasks done
 -------------
 
+* [99 Bottles of Beer](http://rosettacode.org/wiki/99_Bottles_of_Beer)
 * [AVL tree](http://rosettacode.org/wiki/AVL_tree)
 * [Balanced brackets](http://rosettacode.org/wiki/Balanced_brackets)
 * [Binary search](http://rosettacode.org/wiki/Binary_search)
