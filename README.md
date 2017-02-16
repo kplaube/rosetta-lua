@@ -79,6 +79,7 @@ Tasks done
 * [Singly-linked list/Element definition](http://rosettacode.org/wiki/Singly-linked_list/Element_definition)
 * [Singly-linked list/Element insertion](http://rosettacode.org/wiki/Singly-linked_list/Element_insertion)
 * [Singly-linked list/Traversal](http://rosettacode.org/wiki/Singly-linked_list/Traversal)
+* [Sorting algorithms/Bubble sort](http://rosettacode.org/wiki/Sorting_algorithms/Bubble_sort))
 * [Sorting algorithms/Counting sort](http://rosettacode.org/wiki/Sorting_algorithms/Counting_sort)
 * [Sorting algorithms/Insertion sort](http://rosettacode.org/wiki/Sorting_algorithms/Insertion_sort)
 * [Sorting algorithms/Merge sort](http://rosettacode.org/wiki/Sorting_algorithms/Merge_sort)
