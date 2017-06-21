@@ -88,3 +88,7 @@ Tasks done
 * [Sorting algorithms/Selection sort](http://rosettacode.org/wiki/Sorting_algorithms/Selection_sort)
 * [Stack](http://rosettacode.org/wiki/Stack)
 * [Tree traversal](http://rosettacode.org/wiki/Tree_traversal)
+
+### Not listed on Rosetta
+
+* Assignment Problem/Hungarian Algorithm
