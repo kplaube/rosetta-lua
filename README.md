@@ -59,6 +59,7 @@ Tasks done
 * [AVL tree](http://rosettacode.org/wiki/AVL_tree)
 * [Balanced brackets](http://rosettacode.org/wiki/Balanced_brackets)
 * [Binary search](http://rosettacode.org/wiki/Binary_search)
+* [Ethiopian multiplication](http://rosettacode.org/wiki/Ethiopian_multiplication)
 * [Exponentiation operator](http://rosettacode.org/wiki/Exponentiation_operator)
 * [Factorial](http://rosettacode.org/wiki/Factorial)
 * [Fibonacci sequence](http://rosettacode.org/wiki/Fibonacci_sequence)
